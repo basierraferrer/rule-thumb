@@ -1,0 +1,50 @@
+{
+    "mainCard":{
+        "namePerson": "Pope Francis",
+        "description": "He's talking tough on clergy sexual abuse, but is he just another papal pervet protector? (thumbs down) or true pedophile punisihnig pontiff? (thumbs up)"
+    },
+    "votes":[{
+        "name": "Kanye West",
+        "release": "1 month",
+        "section": "Entertainment",
+        "description": "Vestibulum diam ante, portitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+        "image": "/images/KanyeWest.jpg",
+        "votes":{
+            "favor": 54,
+            "against": 29
+        }
+    },{        
+        "name": "Mark Zuckerberg",
+        "release": "1 month",
+        "section": "Bussiness",
+        "description": "Vestibulum diam ante, portitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+        "image": "/images/MarkZuckerberg.jpg",
+        "votes":{
+            "favor": 30,
+            "selected": "against",
+            "against": 55
+        }
+    },{        
+        "name": "Cristina Fernández de Kirchner",
+        "release": "1 month",
+        "section": "Politics",
+        "description": "Vestibulum diam ante, portitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+        "image": "/images/CristinaFernandez.jpg",
+        "votes":{
+            "favor": 36,
+            "against": 64
+        }
+    },
+    {
+        "name": "Malala Yousafzai",
+        "release": "1 month",
+        "section": "Entertainment",
+        "description": "Vestibulum diam ante, portitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+        "image": "/images/MalalaYousafzai.jpg",
+        "votes":{
+            "favor": 192,
+            "against": 108
+        }
+    }
+]
+}

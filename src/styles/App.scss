@@ -1,0 +1,15 @@
+.App {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  min-height: 100vh;
+
+  .menu {
+    position: absolute;
+    width: 100%;
+    a {
+      color: white;
+    }
+  }
+}

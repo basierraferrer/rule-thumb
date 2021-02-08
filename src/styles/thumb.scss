@@ -1,0 +1,26 @@
+.thumb {
+  width: 35px;
+  height: 35px;
+  .rot {
+    font-size: 1.2rem;
+    vertical-align: middle;
+  }
+  &:hover,
+  &:focus,
+  &.selected {
+    border: 2px solid #fff;
+  }
+}
+
+.thumb-up {
+  background: #0dcaf0;
+  color: #fff;
+  &.opacity {
+    background: #0dcaf0c4;
+  }
+}
+
+.thumb-down {
+  background: #ffad1dc4;
+  color: #fff;
+}

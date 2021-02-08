@@ -1,0 +1,47 @@
+:root{
+  --rot-var-search: "\e900";
+  --rot-var-thumbs-down: "\e901";
+  --rot-var-thumbs-up: "\e902";
+  --rot-var-thumbs-up: "\e902";
+  --root-var-facebook:"\ea91";
+  --rot-var-twitter:"\ea96";
+  --rot-var-wikipedia:"\eac8";
+}
+
+@font-face {
+  font-family: 'rule-thumb';
+  src:  url('../../resources/fonts/rule-thumb//rule-thumb.eot?epcsat');
+  src:  url('../../resources/fonts/rule-thumb//rule-thumb.eot?epcsat#iefix') format('embedded-opentype'),
+    url('../../resources/fonts/rule-thumb//rule-thumb.ttf?epcsat') format('truetype'),
+    url('../../resources/fonts/rule-thumb//rule-thumb.woff?epcsat') format('woff'),
+    url('../../resources/fonts/rule-thumb//rule-thumb.svg?epcsat#rule-thumb') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.rot {
+  font-family: rule-thumb, sans-serif;
+}
+
+.rot:before {
+  font-family: rule-thumb, sans-serif;
+}
+
+.rot-search:before {
+  content: var(--rot-var-search) !important;
+}
+.rot-thumbs-down:before {
+  content: var(--rot-var-thumbs-down) !important;
+}
+.rot-thumbs-up:before {
+  content: var(--rot-var-thumbs-up) !important;
+}
+.rot-facebook:before {
+  content: var(--root-var-facebook) !important;
+}
+.rot-twitter:before {
+  content: var(--rot-var-twitter) !important;
+}
+.rot-wikipedia:before {
+  content: var(--rot-var-wikipedia) !important;
+}

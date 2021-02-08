@@ -1,0 +1,27 @@
+.info-rule-thumb {
+  background-color: #d6d8d9;
+  border: 1px solid #c6c8ca;
+  margin-top: 10px;
+
+  .info-rule-title {
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    width: 20%;
+    .title-primary,
+    .title-secondary {
+      margin: 0;
+    }
+
+    .title-primary {
+      font-weight: bolder;
+    }
+  }
+
+  .info-rule-description {
+    font-size: 0.9rem;
+  }
+
+  .close {
+    margin: 1rem;
+  }
+}

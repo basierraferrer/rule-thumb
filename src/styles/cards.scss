@@ -1,0 +1,98 @@
+.cards {
+  .card {
+    position: relative;
+    padding: 0;
+    flex: 1 0 100%;
+    min-height: 300px;
+    height: 500px;
+    margin-bottom: 2rem;
+    .card-image {
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      flex-shrink: 0;
+      object-fit: fill;
+    }
+    .card-img-overlay {
+      padding: 0;
+      background: #0000008a;
+      .info {
+        color: #fff;
+        .info-title {
+          left: -10%;
+          font-size: 1.8rem;
+          font-weight: bolder;
+          &.no-icon {
+            padding-left: 10%;
+          }
+        }
+        .info-time {
+          font-size: 0.9rem;
+          padding-left: 10%;
+          .info-release {
+            font-weight: bolder;
+          }
+        }
+        .info-description {
+          margin-top: 0.5rem;
+          margin-bottom: 0.5rem;
+          padding-left: 10%;
+        }
+        .buttons {
+          padding-bottom: 1rem;
+          padding-left: 10%;
+          .thumb,
+          .vote-now {
+            margin-left: 1rem;
+            margin-right: 1rem;
+          }
+
+          .thumb:first-child {
+            margin-left: 0;
+          }
+
+          .vote-now {
+            border: 1px solid #fff;
+            color: #fff;
+            background: transparent;
+            backdrop-filter: blur(5px);
+            &:hover {
+              border: 2px solid #fff;
+            }
+          }
+        }
+      }
+      .result {
+        bottom: 0;
+        min-width: 10%;
+        height: auto;
+        color: #fff;
+        font-size: 1.8rem;
+        display: flex;
+        &.favor {
+          padding-left: 1rem;
+          background: #0dcaf0a9;
+          .icon {
+            margin-right: 1rem;
+            order: 1;
+          }
+          .value {
+            order: 2;
+          }
+        }
+        &.against {
+          justify-content: flex-end;
+          padding-right: 1rem;
+          background: #ffad1da9;
+          .icon {
+            order: 2;
+          }
+          .value {
+            margin-right: 1rem;
+            order: 1;
+          }
+        }
+      }
+    }
+  }
+}
